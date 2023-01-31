@@ -2,12 +2,16 @@
 body
 {
     margin: 0;
+    background-color: lightgray;
+}
+p{
 }
 /* app-header */
 
 .app-header
 {
-
+    height: 130px;
+    background-color: white;
 }
 .logo
 {
@@ -22,3 +26,68 @@ body
     vertical-align: 10px;
 }
 /* app-main */
+.app-main
+{
+    margin-left: 10%;
+    width: 90%;
+    background-color: white;
+}
+/* nav menu */
+.button
+{
+    border-radius: 8%;
+    height: 45px;
+}
+.addtask
+{
+    background-color: aqua;
+    color: white;
+    border: 0;
+    margin-left: 5%;
+
+}
+.addsection
+{
+    border-color: lightgray;
+    border: 1;
+    color: lightgray;
+    background-color: white;
+}
+/* section */
+/* indextitle */
+.arrowbotton
+{
+    background-image: url(../img/freccia\ giu.png);
+    background-size: cover;
+    display: inline-block;
+    margin-left: 5%;
+    height: 1rem;
+    width: 1.5rem;
+}
+.task
+{
+    display: inline-block;
+}
+.chekball
+{
+    background-image: url(../img/spunta\ tonda.png);
+    background-size: cover;
+    display: inline-block;
+    margin-left: 5%;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.textnew
+{
+    display: inline-block;
+    vertical-align: 5px;
+}
+.editorial
+{
+    background-color: aqua;
+    border: 0;
+    vertical-align: 5px;
+    border-radius: 10%;
+    margin-left: 1%;
+
+}
