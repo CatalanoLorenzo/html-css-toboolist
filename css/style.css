@@ -4,10 +4,7 @@ body
     margin: 0;
     background-color: #f6f8f9;
 }
-p{
-}
 /* app-header */
-
 .app-header
 {
     height: 80px;
@@ -37,6 +34,9 @@ p{
 /* nav menu */
 .navbar
 {
+    border-bottom: 1px solid #e8eaec;
+    padding-left: 5%;
+    padding-bottom: 1%;
 }
 .button
 {
@@ -49,8 +49,6 @@ p{
     background-color: #47adf1;
     color: white;
     border: 0;
-    margin-left: 5%;
-
 }
 .addsection
 {
@@ -59,67 +57,59 @@ p{
     color: #e8eaec;
     background-color: white;
 }
-/* section */
+/* sections */
+.sections
+{
+    padding-left: 10%;
+    padding-top: 5%;
+}
 /* indextitle */
+.iconsm
+{
+    background-size: cover;
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+
+}
 .arrowbotton
 {
     background-image: url(../img/freccia\ giu.png);
-    background-size: cover;
-    display: inline-block;
-    margin-left: 5%;
     height: 1rem;
-    width: 1.5rem;
+    
 }
 .task
 {
     display: inline-block;
 }
-.aretext
-{
-    margin-left: 5%;
-}
 .chekball 
 {
     background-image: url(../img/spunta\ tonda.png);
-    background-size: cover;
-    display: inline-block;
-    height: 1.5rem;
-    width: 1.5rem;
 }
 /* section today */
 .xball
 {
     background-image: url(../img/x\ tonda.png);
-    background-size: cover;
-    display: inline-block;
-    height: 1.5rem;
-    width: 1.5rem;
 }
 .textnew
 {
     vertical-align: 5px;
     display: inline-block;
 }
-.editorial
+.makerbotton
 {
-    background-color: #47adf1;
     border: 0;
     vertical-align: 5px;
     border-radius: 10%;
     margin-left: 1%;
-
+}
+.editorial
+{
+    background-color: #47adf1;
 }
 .q1
 {
     background-color: #9c72e4;
-
-}
-.q1 ,.website
-{
-    border: 0;
-    vertical-align: 5px;
-    border-radius: 10%;
-    margin-left: 1%; 
 }
 .website
 {
@@ -128,24 +118,12 @@ p{
 .recruiting
 {
     background-color: #64c0a9;
-    border: 0;
-    vertical-align: 5px;
-    border-radius: 10%;
-    margin-left: 1%; 
 }
 .mobile
 {
     background-color: #f29e33;
-    border: 0;
-    vertical-align: 5px;
-    border-radius: 10%;
-    margin-left: 1%;  
 }
 .sales
 {
     background-color: lightgreen;
-    border: 0;
-    vertical-align: 5px;
-    border-radius: 10%;
-    margin-left: 1%; 
 }
