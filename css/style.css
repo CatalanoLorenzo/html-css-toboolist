@@ -68,19 +68,31 @@ p{
 {
     display: inline-block;
 }
-.chekball
+.aretext
+{
+    margin-left: 5%;
+}
+.chekball 
 {
     background-image: url(../img/spunta\ tonda.png);
     background-size: cover;
     display: inline-block;
-    margin-left: 5%;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+/* section today */
+.xball
+{
+    background-image: url(../img/x\ tonda.png);
+    background-size: cover;
+    display: inline-block;
     height: 1.5rem;
     width: 1.5rem;
 }
 .textnew
 {
-    display: inline-block;
     vertical-align: 5px;
+    display: inline-block;
 }
 .editorial
 {
@@ -90,4 +102,28 @@ p{
     border-radius: 10%;
     margin-left: 1%;
 
+}
+.q1
+{
+    background-color: violet;
+    border: 0;
+    vertical-align: 5px;
+    border-radius: 10%;
+    margin-left: 1%; 
+}
+.recruiting
+{
+    background-color: rgb(62, 233, 196);
+    border: 0;
+    vertical-align: 5px;
+    border-radius: 10%;
+    margin-left: 1%; 
+}
+.mobile
+{
+    background-color: orange;
+    border: 0;
+    vertical-align: 5px;
+    border-radius: 10%;
+    margin-left: 1%;  
 }
