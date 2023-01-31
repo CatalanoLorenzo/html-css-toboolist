@@ -30,13 +30,13 @@ p{
 {
     margin-top: 5%;
     margin-left: 10%;
+    margin-right: 10%;
     width: 90%;
     background-color: white;
 }
 /* nav menu */
 .navbar
 {
-    
 }
 .button
 {
@@ -109,13 +109,21 @@ p{
     margin-left: 1%;
 
 }
-.q1 ,.website
+.q1
 {
     background-color: #9c72e4;
+
+}
+.q1 ,.website
+{
     border: 0;
     vertical-align: 5px;
     border-radius: 10%;
     margin-left: 1%; 
+}
+.website
+{
+    background-color: #d863a1;
 }
 .recruiting
 {
