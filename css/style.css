@@ -2,7 +2,7 @@
 body
 {
     margin: 0;
-    background-color: lightgray;
+    background-color: #f6f8f9;
 }
 p{
 }
@@ -10,7 +10,7 @@ p{
 
 .app-header
 {
-    height: 130px;
+    height: 80px;
     background-color: white;
 }
 .logo
@@ -23,24 +23,30 @@ p{
 .title
 {
     display: inline-block;
-    vertical-align: 10px;
+    vertical-align: 15px;
 }
 /* app-main */
 .app-main
 {
+    margin-top: 5%;
     margin-left: 10%;
     width: 90%;
     background-color: white;
 }
 /* nav menu */
+.navbar
+{
+    
+}
 .button
 {
     border-radius: 8%;
     height: 45px;
+    margin-top: 2%;
 }
 .addtask
 {
-    background-color: aqua;
+    background-color: #47adf1;
     color: white;
     border: 0;
     margin-left: 5%;
@@ -48,9 +54,9 @@ p{
 }
 .addsection
 {
-    border-color: lightgray;
+    border-color: #e8eaec;
     border: 1;
-    color: lightgray;
+    color: #e8eaec;
     background-color: white;
 }
 /* section */
@@ -96,16 +102,16 @@ p{
 }
 .editorial
 {
-    background-color: aqua;
+    background-color: #47adf1;
     border: 0;
     vertical-align: 5px;
     border-radius: 10%;
     margin-left: 1%;
 
 }
-.q1
+.q1 ,.website
 {
-    background-color: violet;
+    background-color: #9c72e4;
     border: 0;
     vertical-align: 5px;
     border-radius: 10%;
@@ -113,7 +119,7 @@ p{
 }
 .recruiting
 {
-    background-color: rgb(62, 233, 196);
+    background-color: #64c0a9;
     border: 0;
     vertical-align: 5px;
     border-radius: 10%;
@@ -121,9 +127,17 @@ p{
 }
 .mobile
 {
-    background-color: orange;
+    background-color: #f29e33;
     border: 0;
     vertical-align: 5px;
     border-radius: 10%;
     margin-left: 1%;  
+}
+.sales
+{
+    background-color: lightgreen;
+    border: 0;
+    vertical-align: 5px;
+    border-radius: 10%;
+    margin-left: 1%; 
 }
