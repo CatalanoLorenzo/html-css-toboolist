@@ -1,0 +1,24 @@
+/* body set */
+body
+{
+    margin: 0;
+}
+/* app-header */
+
+.app-header
+{
+
+}
+.logo
+{
+    display: inline-block;
+    margin-left: 1%;
+    height: 54px;
+    width: 54px;
+}
+.title
+{
+    display: inline-block;
+    vertical-align: 10px;
+}
+/* app-main */
